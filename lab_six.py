@@ -1,5 +1,5 @@
 # Lab 6 - GitHub lab
-
+# Janelle C
 def encode(password):
     encoded = ""
     for i in password:
@@ -8,11 +8,7 @@ def encode(password):
     return encoded
 
 def decode(password):
-    decoded = ""
-    for i in password:
-        digit = int(i) - 3
-        decoded += str(digit)
-    return decoded
+    pass
 
 def main():
 
@@ -31,8 +27,7 @@ def main():
                 password = input("Please enter your password to encode: ")
                 encoded = encode(password)
             elif menu_selection == 2:
-                decoded = decode(encoded)
-                    print("The encoded password is " + encoded + "and the original password is " + decoded + ".")
+                pass
             elif menu_selection == 3:
                 break
 
